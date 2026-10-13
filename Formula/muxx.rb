@@ -4,22 +4,22 @@
 class Muxx < Formula
   desc "Minimal tmux session automation CLI"
   homepage "https://github.com/harshsandhu44/muxx"
-  version "1.12.6"
+  version "1.13.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/harshsandhu44/muxx/releases/download/v1.12.6/muxx-aarch64-apple-darwin.tar.gz"
-      sha256 "3e5d3ba6fa4fb62e719a571966abb166722ebffb5a832e6ee96a595cdefaf393"
+      url "https://github.com/harshsandhu44/muxx/releases/download/v1.13.0/muxx-aarch64-apple-darwin.tar.gz"
+      sha256 "29ec6a90a51cfafbf9e84a4a71a1969e138b80790063f7408e960a2c4f37443a"
     else
-      url "https://github.com/harshsandhu44/muxx/releases/download/v1.12.6/muxx-x86_64-apple-darwin.tar.gz"
-      sha256 "d8912440812dde17b470a9d4394a90e05d330c0aa23403060e79ad6f74a20671"
+      url "https://github.com/harshsandhu44/muxx/releases/download/v1.13.0/muxx-x86_64-apple-darwin.tar.gz"
+      sha256 "2132e07f1fadfdbfd844c49c55907573262800f011ab038a9022a0e976a9f8a3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/harshsandhu44/muxx/releases/download/v1.12.6/muxx-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "05898685db3f63ad02f6d86ba3846acbae5f4db4bbe8d19bd22f7f95364d28d3"
+      url "https://github.com/harshsandhu44/muxx/releases/download/v1.13.0/muxx-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "68db465735c05874282dc00044549684998157e85227abcf9f0f0c4d693beab3"
     end
   end
 
